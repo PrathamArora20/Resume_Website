@@ -1,0 +1,833 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Pratham Arora</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="html, css, javascript, jquery">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/vendor/animate.min.css">
+    <link rel="stylesheet" href="css/vendor/aos.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style type="text/css">
+      *
+      {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing:border-box;
+        font-weight: bold;
+      }
+      .main .text
+      {
+        color: #fff;
+        font-size:60px;
+        font-weight:400; 
+
+      }
+      .main .option
+      {
+        margin-left: 15px;
+        height: 90px;
+        line-height:90px;
+        overflow:hidden;
+      }
+      .option li
+      {
+        list-style: none;
+        color: #face30;
+        font-size:60px;
+        position:relative;
+        top:0;
+        animation: slide 12s steps(4) infinite;
+      }
+      @keyframes slide
+      {
+        100%
+        {
+          top:-360px;
+
+        }
+        
+      }
+
+      .option li span
+      {
+        position: relative;
+        margin: 5px 0;
+        line-height: 90px;
+      }
+      .option li span:after
+      {
+        content:'';
+        position:absolute;
+        left:0 ;
+        width: 100%;
+        height: 100%;
+        background:#111;
+        border-left:2px solid;
+        animation:typing 3s steps(10) infinite;
+
+      }
+      @keyframes typing
+      {
+        40%,60%
+        {
+          left:calc(100% + 30px);
+        }
+        100%
+        {
+          left:0;
+        }
+      }
+    </style>
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+
+    <nav class="unslate_co--site-mobile-menu">
+      <div class="close-wrap d-flex">
+        <a href="#" class="d-flex ml-auto js-menu-toggle">
+          <span class="close-label">Close</span>
+          <div class="close-times">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+          </div>
+        </a>
+      </div>
+      <div class="site-mobile-inner"></div>
+    </nav>
+
+
+    <div class="unslate_co--site-wrap">
+
+      <div class="unslate_co--site-inner">
+
+        <div class="lines-wrap">
+          <div class="lines-inner">
+            <div class="lines"></div>
+          </div>
+        </div>
+        <!-- END lines -->
+      
+      <nav class="unslate_co--site-nav site-nav-target">
+
+        <div class="container">
+        
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li class="has-children">
+                  <a href="#home-section" class="nav-link">Home</a>
+                  <ul class="dropdown">
+                    <li>
+                      <a href="index.html">Hero Image BG</a>
+                    </li>
+                    <li>
+                      <a href="index-video.html">Video BG</a>
+                    </li>
+                    <li>
+                      <a href="index-hero-slider.html">Hero Slider</a>
+                    </li>
+                    <li>
+                      <a href="index-sidebar-menu.html">Sidebar Menu</a>
+                    </li>
+                    <li>
+                      <a href="index-right-menu.html">Right Menu</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+              </ul>
+            </div>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo">Pratham <span>.</span></a>
+            </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="https://github.com/PrathamArora20" class="nav-link">Projects</a></li>
+                <!-- <li><a href="#testimonial-section" class="nav-link">Testimonial</a></li> -->
+                <li><a href="#certificates-section" class="nav-link">Certifications</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle">Menu</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </nav>
+      <!-- END nav -->
+
+      <div class="cover-v1 jarallax" style="background-image: url('images/black.jpg');" id="home-section">
+        <div class="container">
+          <div class="row align-items-center">
+              
+            <div class="col-md-7 mx-auto text-center">
+              <h1 class="heading gsap-reveal-hero">Pratham Arora</h1>
+              <br>
+              <br>
+              <div class="main">
+                <div class="text">I'm a</div>
+                <br>
+                <ul class="option">
+                  <li><span>Programmer</span></li>
+                  <li><span>Web Site Devloper</span></li>
+                  <li><span>Data Scientist</span></li>
+                  <li><span>AI Enthusiast</span></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <a href="#education" class="mouse-wrap smoothscroll">
+          <span class="mouse">
+            <span class="scroll"></span>
+          </span>
+          <span class="mouse-label">Scroll</span>
+        </a>
+
+      </div>
+      <!-- END .cover-v1 -->
+
+
+      <div class="unslate_co--section" id="education">
+        <div class="container">
+          
+          
+          <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
+          <div id="portfolio-single-holder"></div>
+
+          <div class="portfolio-wrapper">
+
+            <div class="d-flex align-items-center mb-4 gsap-reveal gsap-reveal-filter">
+              <h2 class="mr-auto heading-h2"><span class="gsap-reveal">Education</span></h2>
+
+              <!-- <a href="#" class="text-white js-filter d-inline-block d-lg-none">Filter</a>
+              
+              <div class="filter-wrap">
+                <div class="filter ml-auto" id="filters">
+                  <a href="#" class="active" data-filter="*">All</a>
+                  <a href="#" data-filter=".web">Web</a>
+                  <a href="#" data-filter=".branding">Branding</a>
+                  <a href="#" data-filter=".illustration">Illustration</a>
+                  <a href="#" data-filter=".packaging">Packaging</a>
+                </div>
+              </div> -->
+            </div>
+
+
+            
+            <div id="posts" class="row gutter-isotope-item">
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a  class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>3rd Year Student</h3>
+                        <p>Current</p>
+                      </div>
+                    </div>
+                    <img src="images/UofA.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item branding packaging illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2 ">
+                <a  class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="3">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>High School</h3>
+                        <p>2018-2020</p>
+                      </div>
+                    </div>
+                    <img src="images/Our_own.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+
+              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a  class="portfolio-item isotope-item gsap-reveal-img ajax-load-page" data-id="4">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Middle School</h3>
+                        <p>2014-2018</p>
+                      </div>
+                    </div>
+                    <img src="images/indus.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+
+              
+
+            </div>
+            
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="unslate_co--section">
+        <div class="container">
+          <div class="owl-carousel logo-slider">
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/uofa_transp.png" alt="Image" height="100">
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/Constellation Marine Services -Logo white.png" alt="Image" height="100">
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/fng.png" alt="Image" height="100">
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/technologyalberta.png" alt="Image" height="100">
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo.png" alt="Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="unslate_co--section" id="about-section">
+        <div class="container">
+          
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">About Me</span></h2>
+            <span class="gsap-reveal">
+            <img src="images/divider.png" alt="divider" width="76">
+            </span>
+          </div>
+          
+
+          <div class="row mt-5 justify-content-between">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <figure class="dotted-bg gsap-reveal-img ">
+                <img src="images/new_back.png" alt="Image" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-lg-4 pr-lg-5">
+              <h3 class="mb-4 heading-h3"><span class="gsap-reveal">More About Me</span></h3>
+              <p class="lead gsap-reveal">I am currently a 3rd Year student in <a href="https://www.ualberta.ca/index.html">University Of Alberta</a> persuing <a>Specilization In Computing Science</a> </p>
+              <p class="mb-4 gsap-reveal">I have always found technology to be very fascinating, As a result, I've been able to learn a great deal about it.  What started as an interest in just using computers developed into me choosing it as a career path.</p>
+              <p class="gsap-reveal"><a href="Pratham Arora Resume - New.pdf" class="btn btn-outline-pill btn-custom-light">Download my CV</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section" id="skills">
+        <div class="container">
+
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Skills</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Development</span></h2>
+            
+          </div>
+
+          <div class="row gutter-v3">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/004-percentage.svg" alt="Image" width="45">
+                </div>
+                <h3>Web <br> Development</h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/002-chat.svg" alt="Icon" width="45">
+                </div>
+                <h3>Web <br> Design</h3>
+                <p></p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/003-contact-book.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>User <br> Experience</h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/html.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>HTML5<br> </h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/css.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>CSS<br> </h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/js_logo.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>Java <br> Script</h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/Android.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>Android <br> Development</h3>
+                <p> </p>
+              </div> 
+            </div>
+
+            
+
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section" >
+        <div class="container">
+
+          <div class="section-heading-wrap text-center mb-5">
+            
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Coding Languages</span></h2>
+            
+          </div>
+
+          <div class="row gutter-v3">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/python.svg" alt="Image" width="45">
+                </div>
+                <h3>Python <br> </h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/c++.svg" alt="Icon" width="45">
+                </div>
+                <h3>C++ <br> </h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/C.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>C<br></h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/mysql.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>MySQL<br></h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/matlab.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>MATLAB<br></h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/mongo.png" alt="Image" width="70" height="30">
+                </div>
+                <h3>MongoDB<br></h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/java.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>Java<br></h3>
+                <p> </p>
+              </div> 
+            </div>
+
+            
+
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="unslate_co--section" >
+        <div class="container">
+
+          <div class="section-heading-wrap text-center mb-5">
+            
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Other Tools</span></h2>
+            
+          </div>
+
+          <div class="row gutter-v3">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/git-seeklogo.com.svg" alt="Image" width="45"   >
+                </div>
+                <h3>Git <br> .</h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/jupyter-seeklogo.com.svg" alt="Icon" width="45">
+                </div>
+                <h3>Jupyter <br> .</h3>
+                <p> </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/figma.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>Figma<br>.</h3>
+                <p> </p>
+              </div> 
+            </div>
+
+            
+
+          </div>
+        </div>
+      </div>
+
+    
+
+      
+
+      
+
+      <!-- <div class="unslate_co--section" id="testimonial-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Happy Clients</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+        </div>
+
+        <div class="owl-carousel testimonial-slider" data-aos="fade-up">
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </blockquote>
+              </div>
+              
+              <div class="testimonial-author-info">
+                <img src="images/person_man_1.jpg" alt="Image">
+                <h3>Eric Ingram</h3>
+                <span class="d-block position">Product Designer @facebook</span>
+              </div>
+
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </blockquote>
+              </div>
+              
+              <div class="testimonial-author-info">
+                <img src="images/person_man_2.jpg" alt="Image">
+                <h3>Ryan Mullins</h3>
+                <span class="d-block position">Product Designer @Shopify</span>
+              </div>
+
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </blockquote>
+              </div>
+              
+              <div class="testimonial-author-info">
+                <img src="images/person_woman_1.jpg" alt="Image">
+                <h3>Erica Miller</h3>
+                <span class="d-block position">Product Designer @Twitter</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      END testimonial -->
+
+      <div class="unslate_co--section" id="internship">
+        <div class="container">
+
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Work Experience</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal"></span></h2>
+            
+          </div>
+          <div class="col-md-6 col-lg-12 mb-4">
+            <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+              <div class="wrap-icon mb-3">
+                <img src="images/technologyalberta.png" alt="Image" class="img-fluid" width="150">
+              </div>
+              <h3>1) Website and Software Developer</h3>
+              <p><br> Oct 2022 to Current<h6>Currently working in "Technology Alberta" helping them develop , maintain website. Also use wordpress using php and css to design websites </h6> </p>
+              <br>
+              <h6></h6>
+            </div> 
+          </div>
+          <br>
+          <br>
+          
+
+          <div class="row gutter-v3">
+            <div class="col-md-6 col-lg-12 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                 <a href="https://thecyberconsultancy.com/"><img src="images/about.png" alt="Image" width="200"></a> 
+                </div>
+                <br>
+                <h3>1) Website Developer and Data Analyst </h3>
+                <p><br> May 7th to July 7th 2022 
+                  <h6>Worked as an <b><u>Website Developer</u></b> Intern at Constellation Cyber Consultancy. Worked on <b><u>Search Engine Optimization </u></b>for the companies Websites. Built websites for multiple clients and helped with their portfolio and business websites. Learnt how to work with clients in a professional environment. 
+                    Few of the Websites I built during the internship for clients are :- <br>
+                    <br><a href="https://thecyberconsultancy.com/">https://thecyberconsultancy.com/</a> <br>
+                    <br><a href="https://thepinefresh.com/">https://thepinefresh.com/</a>  <br>
+                    <br><a href="https://jamil-alali.com/">https://jamil-alali.com/</a> <br> <br>
+                    Along with building websites, I worked on <u><b>Data Analysis</b></u> for the company. Worked on finding the best places and pricing for business by extracting and analysing data. I was able to collect more data by methods of surveys and research and plotted the data against the competitors to find a margin for profit while keeping the prices low. Also worked on anlysing the social media posts for the website and finding the best time and best day of posting. Researched the most activity in each social media and crossrefrenced it with how the post perfomed on different time to find the best possible time for posting.
+                  </h6>
+                </p>
+
+              </div> 
+            </div>
+
+            
+            
+            <div class="col-md-6 col-lg-12 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/fng.png" alt="Icon" width="150">
+                </div>
+                <h3>2) Database Management Intern (SAP)</h3>
+                <p><br> May to July 2021 <h6>Internship and training in Fujairah National Group UAE in the IT (SAP) Department for 1.5 months. Learnt and experienced skills in a professional environment. Received training in managing client details, working on the website, and more training in MySQL. 
+                  The company handles over 40 companies, so helped me learn the management of records and informatio</h6></p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-12 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/ada.jpg" alt="Image" class="img-fluid" width="150">
+                </div>
+                <h3>3) Tutor and Mentor</h3>
+                <p><br> Sept 2021 to Current<h6>Transitioning from high school to university can be complicated and scary sometimes. I help students transition from high school to university smoothly and help them with any help they require.I also Tutor students Python in my free time through a club in my university , Ada's Base</h6> </p>
+              </div> 
+            </div>
+            
+            
+            
+
+            
+
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section" id="certificates-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Certifications</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+          
+          <div class="row gutter-v4 align-items-stretch">
+            <div class="col-sm-10 col-md-10 col-lg-12 blog-post-entry" data-aos="fade-up" data-aos-delay="0">
+
+              <a href="blog-single.html" class="grid-item blog-item w-100 h-200">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>Introduction to User Experience Design</h3>
+                    <p class="post-meta"> <span class="small">&bullet;</span> Coursera</p>
+                  </div>
+                </div>
+                <img src="images/Coursera.png" class="lazyload" alt="Image" />
+              </a>
+
+
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-12 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a href="https://drive.google.com/file/d/119tc0w7iyW7FABr_1sXC_Jd-5pRE3aWL/view" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>Application of Artificial Intelligence in Medince</h3>
+                    <p class="post-meta">AIMSS</p>
+                  </div>
+                </div>
+                <img src="images/Pratham_Arora_AIMSS_Certificate.png" class="lazyload" alt="Image" />
+              </a>
+            </div>
+
+
+            <div class="col-sm-6 col-md-6 col-lg-12 blog-post-entry" data-aos="fade-up" data-aos-delay="0">
+
+              <a href="https://www.kaggle.com/learn/certification/prathamarora24/python" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>Python Course</h3>
+                    <p class="post-meta">Kaggle</p>
+                  </div>
+                </div>
+                <img src="images/Pratham Arora - Python.png" class="lazyload" alt="Image" />
+              </a>
+
+
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-12 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a href="https://drive.google.com/file/d/119tc0w7iyW7FABr_1sXC_Jd-5pRE3aWL/view" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>Intro to AI and Medicine </h3>
+                    <p class="post-meta">AIMSS</p>
+                  </div>
+                </div>
+                <img src="images/Pratham_Arora_AIMSS_Certificate.png" class="lazyload" alt="Image" />
+              </a>
+            </div>
+
+            
+
+
+          </div>
+
+        </div>
+      </div>
+      <!-- END blog posts -->
+
+
+      <div class="unslate_co--section" id="contact-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Get In Touch</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          
+
+            <div class="col-md-4">
+              <div class="contact-info-v1">
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Email</span>
+                  <a href="#" class="contact-info-val">apratham2421@gmail.com</a>
+                </div>
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Phone</span>
+                  <a href="#" class="contact-info-val">+1 8254612811</a>
+                </div>
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Address</span>
+                  <address class="contact-info-val">111 street ,Edmonton <br> Alberta , Canada</address>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div> <!-- END .unslate_co-site-inner -->
+
+      <footer class="unslate_co--footer unslate_co--section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              
+              <div class="footer-site-logo"><a href="#">Pratham<span>.</span></a></div>
+
+              <ul class="footer-site-social">
+                <li><a href="https://github.com/PrathamArora20">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/pratham-arora-aabb08227/">linkedin</a></li>
+                
+              </ul>
+
+              
+
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      
+    </div>
+
+    
+    <!-- Loader -->
+    <div id="unslate_co--overlayer"></div>
+    <div class="site-loader-wrap">
+      <div class="site-loader"></div>
+    </div>
+
+    <script src="js/scripts-dist.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
